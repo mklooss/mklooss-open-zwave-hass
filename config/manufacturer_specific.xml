@@ -1940,6 +1940,9 @@
 	</Manufacturer>
 	<Manufacturer id="0264" name="Taiwan iCATCH">
 	</Manufacturer>
+	<Manufacturer id="0299" name="TechniSat">
+		<Product type="0005" id="1a93" name="Shutter" config="technisat/03009496.xml"/>
+	</Manufacturer>
 	<Manufacturer id="0186" name="Team Digital Limited">
 	</Manufacturer>
 	<Manufacturer id="0089" name="Team Precision PCL">

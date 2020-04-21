@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Product xmlns='http://code.google.com/p/open-zwave/'>
+    <!-- Link: https://products.z-wavealliance.org/products/3778 -->
+    <!-- Configuration -->
+    <CommandClass id="112">
+        <Value type="list" genre="config" instance="1" index="1" label="Parameter 1" size="1" value="1">
+            <Help>
+                Enable/disable central scene notifications for 2x-5x button presses.
+            </Help>
+            <Item label="disable central scene" value="0" />
+            <Item label="enable central scene" value="1" />
+        </Value>
+
+        <Value type="list" genre="config" instance="1" index="2" label="Parameter 2" size="2" value="3">
+            <Help>
+                3 to 8640 - Interval of current wattage meter reports in 10 seconds increments.
+                0 - Disable unsolicited meter reports of current wattage.
+            </Help>
+        </Value>
+
+        <Value type="list" genre="config" instance="1" index="3" label="Parameter 3" size="1" value="60">
+            <Help>
+                Interval of active energy meter reports in minutes.
+                - 10 to 30240 - Interval of active energy meter unsolicited reports in minutes (10 minutes - 3 weeks)
+                - 0 - Disable unsolicited meter reports of active energy.
+            </Help>
+        </Value>
+
+        <Value type="int" genre="config" instance="1" index="4" label="Parameter 4" size="1" value="0">
+            <Help>
+                Setting this parameter to 1 will start a manual shutter calibration.
+            </Help>
+            <Item label="Default" value="0" />
+            <Item label="manual shutter calibration" value="1" />
+        </Value>
+    </CommandClass>
+    <!-- Association Groups -->
+    <CommandClass id="133">
+        <Associations num_groups="3">
+            <Group index="1" max_associations="1" label="Lifeline"/>
+            <Group index="2" max_associations="10" label="Switch State"/>
+        </Associations>
+    </CommandClass>
+    <!-- Manufacturer Proprietary, sent when configuring "Fibaro Command Class" -->
+    <CommandClass id="145">
+        <Value genre="user" type="byte" instance="1" index="0" label="Venetian Blind slat position" value="0" min="0" max="100" units="%" />
+        <Value genre="user" type="byte" instance="1" index="1" label="Venetian blind tilt position" value="0" min="0" max="100" units="%" />
+    </CommandClass>
+</Product>
