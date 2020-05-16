@@ -44,7 +44,7 @@
             <Item label="Toogle Switch" value="0" />
             <Item label="Normal Switch" value="1" />
         </Value>
-        <Value type="list" genre="config" instance="1" index="5" label="Parameter 6" size="1" value="1">
+        <Value type="list" genre="config" instance="1" index="6" label="Parameter 6" size="1" value="1">
             <Help>
                 Central Scene mapping of extension input S.
                 Central Scene 1: Multiple button presses (2x-5x) on extension input S will trigger events of central scene 1.
