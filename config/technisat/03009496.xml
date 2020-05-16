@@ -41,9 +41,4 @@
             <Group index="2" max_associations="10" label="Switch State"/>
         </Associations>
     </CommandClass>
-    <!-- Manufacturer Proprietary, sent when configuring "Fibaro Command Class" -->
-    <CommandClass id="145">
-        <Value genre="user" type="byte" instance="1" index="0" label="Venetian Blind slat position" value="0" min="0" max="100" units="%" />
-        <Value genre="user" type="byte" instance="1" index="1" label="Venetian blind tilt position" value="0" min="0" max="100" units="%" />
-    </CommandClass>
 </Product>
