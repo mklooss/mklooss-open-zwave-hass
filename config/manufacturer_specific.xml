@@ -1942,6 +1942,7 @@
 	</Manufacturer>
 	<Manufacturer id="0299" name="TechniSat">
 		<Product type="0005" id="1a93" name="Shutter" config="technisat/03009496.xml"/>
+		<Product type="0002" id="1a90" name="Single-Switch" config="technisat/03009499.xml"/>
 	</Manufacturer>
 	<Manufacturer id="0186" name="Team Digital Limited">
 	</Manufacturer>
