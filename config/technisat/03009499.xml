@@ -38,11 +38,11 @@
         <Value type="list" genre="config" instance="1" index="5" label="Parameter 5" size="1" value="0">
             <Help>
                 Configuration of switch type connected to extension input S.
-                Toogle Switch: Use this value if a toggle switch is connected to extension input S.
-                Normal Switch: Use this value if a push button switch is connected to extension input S.
+                Normal Switch: Use this value if a toggle switch is connected to extension input S.
+                Toogle Switch: Use this value if a push button switch is connected to extension input S.
             </Help>
-            <Item label="Toogle Switch" value="0" />
-            <Item label="Normal Switch" value="1" />
+            <Item label="Normal Switch" value="0" />
+            <Item label="Toogle Switch" value="1" />
         </Value>
         <Value type="list" genre="config" instance="1" index="6" label="Parameter 6" size="1" value="1">
             <Help>
